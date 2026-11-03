@@ -1,0 +1,27 @@
+name: aplikasi_kontak
+description: "Aplikasi Daftar Kontak Tugas Praktikum 6"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  faker: ^2.2.0
+  intl: ^0.20.3
+  convex_bottom_bar: ^3.2.0
+  avatar_glow: ^3.0.1
+  dropdown_search: 5.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
